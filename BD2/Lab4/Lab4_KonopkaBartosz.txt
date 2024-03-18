@@ -1,0 +1,4 @@
+ZAD 1 - Zadanie wykonane, opracowa³em przyk³ad procedury sk³adowanej z wykorzystaniem kursora, która jako parametr przyjmuje tytu³ osoby (na przyk³ad Mr. albo Ms.) po czym wypisuje takie dane jak Person Type, First Name, Last Name czy EmailPromotion, dla osób których tytu³ zgadza siê z podanym.
+ZAD 2 - Zadanie wykonane, utworzony zosta³ wyzwalacz DML dla tabeli production.Product. Przy operacjach INSERT, UPDATE i DELETE do tabeli Production.Product_DML_Trigger zostana zapisane informacje o dokananych zmianach na tabeli. Przetsowa³em trigger na Insercie, updacie i delecie.
+ZAD 3 - Zadanie wykonane, utworzy³em procedurê która zmienia cenê produktu w tabeli Production.Produkt. Je¿eli zmieniona wartoœæ kwoty bêdzie wiêksza od 200 wypisany bêdzie RAISEERROR informuj¹cy ¿e cena produltu nie mo¿e byæ wy¿sza od 200.
+Rozwi¹zane zadania znajduj¹ siê w plikach Zad1/2/3.sql

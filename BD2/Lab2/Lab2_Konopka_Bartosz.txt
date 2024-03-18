@@ -1,0 +1,4 @@
+Zad 1 - Zadanie zostalo zrobione, w zalaczniku przesylam kod sql "Zad1.sql" w ktorym widnieje rozwiazanie zadania. 
+Zad 2 - Zadanie zostalo wykonane, skorzystalem z innych tabel niz wpisane w tresci zadania - wykorzystalem tabele Person.StateProvince, Person.Address, Person.BusinessEntityAddress, Person.BusinessEntity oraz Purchasing.Vendor.
+Do grupowania uzylem grouping sets, grupujac wg stanu i miasta, na rozne sposoby. Kod rozwiazania znajduje sie w pliku "Zad2.sql".
+Zad 3 - Zadania 3 nie zdazylem wykonac.
