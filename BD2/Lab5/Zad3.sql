@@ -1,0 +1,14 @@
+-- Zad 3
+
+USE master;
+
+CREATE ROLE StandardRole AUTHORIZATION dbo;
+
+GRANT INSERT, UPDATE, DELETE ON dbo.Object TO [WINSERV01\grupa1];
+
+GRANT INSERT, UPDATE, DELETE ON dbo.Object TO [WINSERV01\grupa2];
+
+ALTER SERVER ROLE sysadmin ADD MEMBER [WINSERV01\tester3];
+
+GRANT SELECT ON dbo.Object TO [WINSERV01\tester2];
+GRANT SELECT ON dbo.Object TO [WINSERV01\tester4];

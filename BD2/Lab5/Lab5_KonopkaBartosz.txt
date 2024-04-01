@@ -1,0 +1,3 @@
+Zad1 - Zadanie wykonane, nie jestem pewien jednak poprawnosci dzialania triggera
+Zad2 - Zadanie dziala, nie zdazylem wykonac wiekszej ilosci testow
+Zad3 - Zadanie wstpenie dziala, nie zostalo dokonczone
