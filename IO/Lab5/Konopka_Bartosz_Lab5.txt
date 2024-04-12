@@ -1,0 +1,24 @@
+Otwarcie zlecenia - schemat Cockburna
+UC1-01: Otwarcie zlecenia
+Autor: Bartosz Konopka
+Poziom: systemowy
+Cel: Dodanie nowego zlecenia do sytemu
+Kontekst użycia: Potrzeba stworzenia nowego zlecenia
+Aktorzy: Pracownik BOK
+Zdarzenie inicjujące: Pracownik obsługi klienta klika “Dodaj nowe zlecenie”
+
+Głowny scenariusz powodzenia:
+System prezentuje użytkownikowi formularz tworzenia nowego zlecenia, który zawiera unikalny numer. W formularzu ten użytkownik może wprowadzić informacje dotyczące zakresu naprawy, kosztorysu, terminu, oraz dane właściciela i pojazdu. System automatycznie uzupełnia znalezione dane z bazy danych. Następnie pracownik BOK przydziela zadania dla mechaników. Przed zapisaniem zlecenia, system dokonuje weryfikacji poprawności wprowadzonych danych przez pracownika BOK. Po udanym zapisaniu, system wyświetla potwierdzenie.
+
+Scenariusze alternatywne:
+System przeprowadza negatywną weryfikację danych podanych przez pracownika, co skutkuje wyświetleniem komunikatu z prośbą o ponowne wypełnienie formularza ze wszystkimi wymaganymi polami. Pracownik jest informowany, które dane nie zostały poprawnie wprowadzone. W przypadku zgłoszenia dotyczącego przeglądu samochodowego, system żąda uzupełnienia informacji dotyczących zakresu naprawy, kosztorysu oraz terminu naprawy. Jeśli klient nie figuruje w bazie danych, system prezentuje dodatkowe okno, w którym użytkownik może wprowadzić informacje dotyczące zaliczki.
+
+
+Opis niesformalizowany:
+
+Tytuł: Zamknięcie zlecenia
+Opis: Pracownik BOK chce zamknąć zlecenie.
+Jeśli naprawa zakończyła się pomyślnie, system automatycznie generuje fakturę i informuje użytkownika o możliwości wygenerowania raportu. Zanim zlecenie zostanie zamknięte, system sprawdza, czy wszystkie płatności zostały uregulowane. W przypadku braku pełnej opłaty, system wyświetla komunikat informujący o pozostałej kwocie do uregulowania. Po pozytywnym zakończeniu, status zlecenia zmienia się na "zakończone", a użytkownik traci możliwość edycji zgłoszenia.
+
+
+
