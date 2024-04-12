@@ -1,0 +1,4 @@
+ZAD 1 - wykonane
+ZAD 2 - wykonane
+ZAD 3 - napisa³em po³¹czenie z baza danych i zacz¹³em pisaæ odczytanie danych z pliku csv. Nie zd¹¿y³em napisaæ kodu dokonuj¹cego query.
+Wszystkie pliku zosta³y za³¹czone
