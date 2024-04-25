@@ -1,0 +1,3 @@
+ZAD1 - zadanie rozwiazane za pomoca procedury napisanej w TSQL, procedura dzial prawidlowo, nie jest jednak zapisan w bazie danych testCLR
+ZAD2 - zadanie rozwiazane za pomoca funkcji napisanej w TSQL
+ZAD3 - zadanie rozwiazane za pomoca funkcji napisanej w TSQL
